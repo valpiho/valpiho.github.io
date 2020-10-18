@@ -211,6 +211,9 @@
  .font-80 {
      font-size: 80px;
  }
+ .red {
+     color: red;
+ }
  /*font size in screen support
 -----------------------------------*/
  
