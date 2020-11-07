@@ -1,39 +1,3 @@
- /*
- _____      						 _______ 	     
-|  __ \  							|_ _ _ _| _  	 	    
-| |__) | 					     _	   | |	 | |	        
-|  ___/    ___    __ _    __ _  | |    | |	 | |__     ___ 	 _ __  _ __    ___ 
-| |\ \    / _ \  / _` |  / _` | | |    | |	 | '_ \   / _ \ | '_ \| '_ \  / _ \
-| | \ \  |  __/ | (_| | | (_| | | |    | |	 | | | | |  __/ | |  ||  | | |  __/
-|_|  \ \  \___|  \__, |  \__,_| |_|    |_|   |_| |_|  \___| |_|  ||  |_|  \___|
-                  __/ |              
-                 |___/  		     
-================================================================================ */
- /*==========================================================
-    Template Name: MiniPo Minimal Portfolio Template
-    Created By: RegalTheme
-    Envato Profile: https://themeforest.net/user/regaltheme
-    Website: http://regaltheme.com
-    Description: MiniPo is Fully Responsive Minimal Portfolio Template with awesome features.
-    Version: v1.1
-    Support: http://regaltheme.com/support
-============================================================*/
- /*===========================================================
-    CSS INDEX
-    ===================
-	
-	[ 1. General Code ]
-	[ 2. Typography ]
-	[ 3. Global Classes ]
-	[ 4. Home Version's ]
-	[ 5. Pages ]
-	[ 6. Loding Bar ]
-	[ 7. ScrollUp ]
-==============================================================*/
- /* 
-[ 1. General Code ]
-================ */
- 
  body {
      font-family: 'Open Sans', sans-serif;
      font-size: 14px;
@@ -529,147 +493,10 @@
  .white-bg {
      background: #ffffff none repeat scroll 0 0;
  }
- .block-bg {
-     background: #2d2d2d none repeat scroll 0 0;
- }
  .light-bg {
      background: #f6f6f6 none repeat scroll 0 0;
  }
- .bg-color-1 {
-     background: #f7f7f7 none repeat scroll 0 0;
- }
- .bg-color-2 {
-     background: #edf1f5 none repeat scroll 0 0;
- }
- .bg-color-3 {
-     background: #f5f5f5 none repeat scroll 0 0;
- }
- /* background image 
-==================================*/
- 
- .bg-img-1 {
-     background-image: url("../img/bg/1.jpg");
- }
- .bg-img-2 {
-     background-image: url("../img/bg/2.jpg");
- }
- .slider-bg-1 {
-     background-attachment: scroll;
-     background-image: url("../img/slider/1.jpg");
-     background-repeat: no-repeat;
-     background-size: cover;
-     background-position: center;
- }
- .slider-bg-2 {
-     background-image: url("../img/slider/2.jpg");
-     background-repeat: no-repeat;
-     background-attachment: scroll;
-     background-size: cover;
-     background-position: center;
- }
- .slider-bg-3 {
-     background-image: url("../img/slider/3.jpg");
-     background-repeat: no-repeat;
-     background-attachment: scroll;
-     background-size: cover;
-     background-position: center;
- }
- .slider-bg-4 {
-     background-image: url("../img/slider/4.jpg");
-     background-repeat: no-repeat;
-     background-attachment: scroll;
-     background-size: cover;
-     background-position: center;
- }
- .slider-bg-5 {
-     background-image: url("../img/slider/5.jpg");
-     background-repeat: no-repeat;
-     background-attachment: scroll;
-     background-size: cover;
-     background-position: center;
- }
- .slider-bg-6 {
-     background-image: url("../img/slider/6.jpg");
-     background-repeat: no-repeat;
-     background-attachment: scroll;
-     background-size: cover;
-     background-position: center;
- }
- /* background overlay 
-===================================*/
- 
- .overlay {
-     position: relative;
- }
- .overlay:before {
-     position: absolute;
-     top: 0;
-     left: 0;
-     width: 100%;
-     height: 100%;
-     content: "";
-     background: rgba(247, 247, 247, .90);
-     -webkit-transition: all 0.3s ease 0s;
-     -o-transition: all 0.3s ease 0s;
-     transition: all 0.3s ease 0s;
-     z-index: 1;
- }
- .overlay .container {
-     position: relative;
-     z-index: 2;
- }
- /* dark overlay 
-================================*/
- 
- .overlay.dark-1:before {
-     background-color: rgba(0, 0, 0, .50);
- }
- .overlay.dark-2:before {
-     background-color: rgba(0, 0, 0, .60);
- }
- /* light overlay 
-================================*/
- 
- .overlay.light-1:before {
-     background-color: rgba(255, 255, 255, .70);
- }
- .overlay.light-2:before {
-     background-color: rgba(246, 246, 246, .85);
- }
- /* others color overlay 
-=================================*/
- /*Verticle Aligne Middle 
---------------------------*/
- 
- .d-table {
-     display: table;
-     width: 100%;
-     height: 100%;
- }
- .d-table-cell {
-     display: table-cell;
-     vertical-align: middle;
- }
- .v-align {
-     -webkit-box-align: center;
-     -ms-flex-align: center;
-     align-items: center;
-     display: -webkit-box;
-     display: -ms-flexbox;
-     display: flex;
-     -webkit-box-orient: horizontal;
-     -webkit-box-direction: normal;
-     -ms-flex-direction: row;
-     flex-direction: row;
-     -webkit-box-pack: center;
-     -ms-flex-pack: center;
-     justify-content: center;
- }
- .row-eq-height {
-     display: -webkit-box;
-     display: -ms-flexbox;
-     display: flex;
- }
+
  /* Default Button Style
 ------------------------ */
  
@@ -808,78 +635,7 @@
  .center .horizontal-line div.top {
      margin-bottom: 4px;
  }
- /* Social Icons
-----------------------*/
  
- .social-icon,
- .simple.social-icon li a {
-     line-height: 1;
- }
- .social-icon ul {
-     display: inline-block;
- }
- .social-icon li {
-     float: left;
- }
- .social-icon li a {
-     display: block;
-     font-size: 16px;
-     color: #858585;
-     height: 30px;
-     line-height: 31px;
-     margin: 0 1px;
-     padding: 0 10px;
-     position: relative;
-     text-align: center;
-     width: 30px;
-     z-index: 2;
-     font-weight: 300;
- }
- .social-icon li a:hover {
-     color: #484848;
- }
- .simple.social-icon li a {
-     height: auto;
-     width: auto;
- }
- /* Style One */
- 
- .social-icon.style1 li a {
-     height: 27px;
-     width: 27px;
-     font-size: 15px;
-     line-height: 27px;
-     padding: 0;
-     margin: 0 4px;
-     color: #818181;
- }
- .social-icon.style1 li a:hover {
-     color: #ffffff;
- }
- .social-icon.style1 li a::after {
-     background: #818181 none repeat scroll 0 0;
-     border-radius: 50%;
-     content: "";
-     height: 100%;
-     left: 0;
-     opacity: 0;
-     position: absolute;
-     top: 0;
-     -webkit-transform: scale(1.3);
-     -ms-transform: scale(1.3);
-     transform: scale(1.3);
-     -webkit-transition: all 0.4s ease 0s;
-     -o-transition: all 0.4s ease 0s;
-     transition: all 0.4s ease 0s;
-     width: 100%;
-     z-index: -1;
- }
- .social-icon.style1 li a:hover::after {
-     opacity: 1;
-     -webkit-transform: scale(1);
-     -ms-transform: scale(1);
-     transform: scale(1);
- }
  /* Main Menu
 ------------------------------- */
  
@@ -901,42 +657,7 @@
      font-weight: 700;
      font-size: 12px;
  }
- .portfolio-menu.hover-1 li.active,
- .menu-hover-1 li:hover a,
- .menu-hover-1 li a.active,
- .mainmenu li a.active,
- .mainmenu li a:hover {
-     color: #a4a4a4;
- }
-  header .search-box > i,
- .header-style-1 .logo,
- .header-style-1 .mainmenu li a {
-     line-height: 110px;
- }
- .portfolio-menu.hover-1 li:after,
- .menu-hover-1 li a:after {
-     background: #666666 none repeat scroll 0 0;
-     top: 65px;
-     content: "";
-     height: 1px;
-     left: 0;
-     right: 0;
-     position: absolute;
-     -webkit-transition: all 0.3s ease 0s;
-     -o-transition: all 0.3s ease 0s;
-     transition: all 0.3s ease 0s;
-     width: 0;
-     margin: 0 auto;
- }
- .menu-hover-1 li ul a:after {
-     display: none;
- }
- .portfolio-menu.hover-1 li.active::after,
- .portfolio-menu.hover-1 li:hover:after,
- .menu-hover-1 li:hover a:after,
- .mainmenu.menu-hover-1 li a.active::after {
-     width: 20px;
- }
+ 
  /* Dropdown Menu */
  
  .mainmenu .sub-menu,
@@ -1492,7 +1213,6 @@
  .portfolio-area .project-title {
      border: 1px solid #e9e9e9;
      border-top: 0;
-     height: 125px;
  }
  .portfolio-area .project-title p {
      color: #939393;
