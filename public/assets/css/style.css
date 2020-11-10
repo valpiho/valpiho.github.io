@@ -605,6 +605,9 @@
 } 
 
  /* Portfolio Area */
+ .portfolio-area {
+     padding: 40px 0 60px 0;
+ }
  .single-portfolio {
      border: 1px solid #e5e5e5;
  }
@@ -627,11 +630,19 @@
  }
  
  /* Services Area */
+ .service-area {
+    padding: 60px 0 40px 0;
+ }
  .single-service hr.line {
      background: #c8c8c8 none repeat scroll 0 0;
      margin: 0 auto 9px;
      width: 50px;
  }
+ .portfolio-area hr.line {
+    background: #c8c8c8 none repeat scroll 0 0;
+    margin: 0 auto 20px;
+    width: 300px;
+}
 
  /* Portfolio Details
 ---------------------- */
