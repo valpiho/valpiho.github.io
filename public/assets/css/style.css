@@ -544,6 +544,14 @@
      margin-bottom: 4px;
  }
 
+  /* Default Button Style */
+  .btn {
+    background-color: transparent;
+    font-size: 26px;
+    line-height: 26px;
+    padding: 50px 0 0 0;
+    color: #fff;
+}
  /* Slider Area */
  .slider-one .slider-text h2 {
      padding-left: 5px;
@@ -670,3 +678,4 @@
      -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
      box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
  }
+
